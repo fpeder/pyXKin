@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# kinect
+WAIT_TIME = 1
+
+# body
+NBINS = 256
+AREA_MIN = 0.15
+
+# hand
+MEDIAN_DIM = 7
+MORPH_SHAPE_DIM = (3, 3)
+MORPH_NITER = 1
+MIN_CONTOUR_LEN = 100
+
+# pose
+BUFFLEN = 5
+POLY_APPROX_PRECISION = 10
+MIN_HULL_POINTS = 3
+NUM_DEFECTS = 4
+DEFECTS_DEPTH_FACTOR = 3
+HAND_CLOSE = 1
+HAND_OPEN = 0
+HAND_NONE = -1
+FD_NUM = 8
+CONTOUR_LEN = 256
+
+# gesture
+NUM_ANGLES = 16
+XVAR = 25
+YVAR = 25
